@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metroid Jump</title>
+    
+    <link rel="stylesheet" href="./src/css/style.css">
+    <script src="./src/js/script.js" defer></script>
+
+</head>
+<body>
+    <div class="initial-screen">
+        <img src="./src/assets/imagens/latest.png" class="logo">
+        <img src="./src/assets/imagens/jump-sticker-text-effect-with-mo.png" class="logo2">
+        <button id="startGameButton">Iniciar Jogo</button>
+    </div> 
+    <div class="game-board">
+        <img src="./src/assets/imagens/metroid.gif" class="metroid">
+        <img src="./src/assets/imagens/cano2.png" class="cano">
+        <span class="pontuacao"></span>
+    </div>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Sua pontuação foi de: <span id="score"></span>!</p>
+        </div>
+      </div>
+    <div class="game-over-screen" style="display: none;">
+        <img class="game-over-image" src="./src/assets/imagens/120638838.jpeg" alt="Game Over">
+        <button class="game-over-button" id="restartButton" class="restartButton">Reiniciar Jogo</button>
+    </div>
+</body>
+</html>

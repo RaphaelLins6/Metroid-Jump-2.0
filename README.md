@@ -1,7 +1,7 @@
 # Metroid-Jump-2.0
-🕹️  O objetivo principal do jogo é simples: correr o máximo que conseguir sem colidir com os obstáculos. À medida que o jogo avança, a velocidade aumenta e os obstáculos se tornam mais frequentes, exigindo reflexos rápidos do jogador.
+🕹️  O objetivo principal do jogo é simples: correr o máximo que conseguir sem colidir com os obstáculos.
 
-🕹️ The main objective of the game is simple: run as far as you can without colliding with obstacles. As the game progresses, the speed increases and obstacles become more frequent, requiring quick reflexes from the player.
+🕹️ The main objective of the game is simple: run as far as you can without colliding with obstacles.
 
 ## Stack utilizada | Stack used
 **Front-end:** VS Code | HTML e CSS
